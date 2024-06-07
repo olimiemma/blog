@@ -273,7 +273,7 @@ accelerate launch --config_file examples/accelerate_configs/multi_gpu.yaml --num
 	--output_dir gemma-finetuned-openassistant
 ```
 
-This takes about 9 hours to train on a single A10G, but can be easily parallelized by tweaking `--num_processes` to the number of GPUs you have available.
+This takes about 9 hours to train on a single A10G, but can be easily parallelized by tweaking `--num_processes` to the number of GPUs you have available.(yah, resource limitation is a serious problem in this AI model World)
 
 ## Additional Resources
 
